@@ -8,20 +8,19 @@ This repository contains the data process code, seed data, and LoRA adapter weig
 ---
 
 ## 📂 Repository Structure
-
 LLM-LADE/
- ├── data_process/                  # Scripts for preprocessing raw logs
- │   ├── hdfs_process.py
- │   └── bgl_tbird_process.py
- ├── seed_data/                     # Manually annotated few-shot seed examples
- │   ├── seed_hdfs.json
- │   ├── seed_bgl.json
- │   └── seed_thunderbird.json
- ├── model_weights/                # LoRA adapter weights for each dataset
- │   ├── hdfs_lora/
- │   ├── bgl_lora/
- │   └── thunderbird_lora/
- ├── README.md
+  ├── data_process/               # Scripts for preprocessing raw logs
+  │   ├── hdfs_process.py
+  │   └── bgl_tbird_process.py
+  ├── seed_data/                  # Manually annotated few-shot seed examples
+  │   ├── seed_hdfs.json
+  │   ├── seed_bgl.json
+  │   └── seed_thunderbird.json
+  ├── model_weights/             # LoRA adapter weights for each dataset
+  │   ├── hdfs_lora/
+  │   ├── bgl_lora/
+  │   └── thunderbird_lora/
+  └── README.md
 
 
 
