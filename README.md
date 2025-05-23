@@ -34,7 +34,7 @@ Each folder contains:
 - `adapter_model.safetensors` – LoRA adapter weights
 - `adapter_config.json` – LoRA configuration
 
-These weights are trained on top of **LLaMA3-8B**, and can be used for fine-tuning or inference via PEFT or LLaMA-Factory.
+These weights are trained on top of **LLaMA3-8B-Instruct**, and can be used for fine-tuning or inference via PEFT or LLaMA-Factory.
 
 ------
 
@@ -46,4 +46,4 @@ Please download the official [Meta-LLaMA3-8B-Instruct model](https://huggingface
 
 ## 🚀 Inference with LLaMA-Factory
 
-You can use [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) to load and evaluate the model.
+You can use [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) to load and evaluate the model. specifying the version as llmtuner==0.7.1.dev0.
