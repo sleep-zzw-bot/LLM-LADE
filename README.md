@@ -40,7 +40,7 @@ These weights are trained on top of **LLaMA3-8B**, and can be used for fine-tuni
 
 ## 🧠 Base Model Requirement
 
-Please download the official [Meta-LLaMA3-8B model](https://huggingface.co/meta-llama/Meta-Llama-3-8B/tree/main) from Hugging Face and agree to its license. The LoRA weights assume this model as the base.
+Please download the official [Meta-LLaMA3-8B-Instruct model](https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct/tree/main) from Hugging Face and agree to its license. The LoRA weights assume this model as the base.
 
 ------
 
